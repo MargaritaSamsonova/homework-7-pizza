@@ -7,6 +7,10 @@ import createStore from './store';
 
 const store = createStore();
 
+store.subscribe(() => {
+    console.log(store.getState())
+})
+
 ReactDOM.render(
   <Provider store={store}>
     <App />

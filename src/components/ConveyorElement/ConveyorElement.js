@@ -31,6 +31,8 @@ class ConveyorElement extends PureComponent {
   render() {
     const { title, name, ingredients, orders } = this.props;
 
+
+
     return (
       <Box
         title={title}
